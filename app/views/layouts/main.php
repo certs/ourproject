@@ -111,7 +111,7 @@
                                                 <a href="./index.html" class="logo" title="Maximus"></a>
                                                 <div id="menu">
                                                     <ul class="ddsmoothmenu">
-                                                        <li><a href="./index.html" class="menu-item current" title="home">home</a>
+                                                        <li><a href="/" class="menu-item current" title="home">home</a>
                                                             <ul class="children">
                                                                 <li><a href="./index.html">Home Page 1</a></li>
                                                                 <li><a href="./index-2.html">Home Page 2</a></li>
@@ -140,13 +140,14 @@
                                                                 <li><a href="./gallery-video.html">Video Gallery</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="./contacts.php.html" class="menu-item" title="contact">contact</a></li>
+                                                        <li><a href="contact" class="menu-item" title="contact">contact</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="clear"></div>
                                             </div>
                                         </div>
                                         <!-- Begin Header -->
+                                        <?php if(Request::path() == "/"): ?>
                                         <div class="header">
                                             <div class="sliderwrap">
                                                 <div id="slider">
@@ -158,6 +159,8 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <?php endif; ?>
+                                        
                                         <?php echo $content; ?>
                                         <!-- Begin Footer  -->
                                         <div class="wrap">

@@ -18,5 +18,14 @@ class HomeController extends BaseController {
 	{
 		$this->layout->content =  View::make('index');
 	}
+        
+        /**
+         * @author Igor Chepurnoy <Chepurnoy@zfort.com>
+         * Contact Index
+         */
+        public function contact(){
+            
+            $this->layout->content =  View::make('contact');
+        }
 
 }
