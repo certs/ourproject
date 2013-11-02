@@ -108,7 +108,7 @@
                                     <div id="wide" class="container">
                                         <div id="top">
                                             <div class="wrap">
-                                                <a href="./index.html" class="logo" title="Maximus"></a>
+                                                <a href="/" class="logo" title="Maximus"></a>
                                                 <div id="menu">
                                                     <ul class="ddsmoothmenu">
                                                         <li><a href="/" class="menu-item current" title="home">home</a>
